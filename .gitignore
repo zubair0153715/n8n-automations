@@ -1,0 +1,15 @@
+# Runtime & secrets
+node_modules/
+data/
+.n8n/
+*.db
+*.sqlite*
+.env
+.env.*
+npm-debug.log*
+.npm/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
