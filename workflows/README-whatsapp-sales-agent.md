@@ -1,6 +1,6 @@
 # 1. WhatsApp Sales Agent (AR+EN)
 
-**File:** `whatsapp-sales-agent.json` · **Status in n8n:** imported, inactive (activate in editor)
+**File:** `whatsapp-sales-agent.json` · **Nodes:** 7 · **Status in n8n:** imported, inactive (activate in editor)
 
 ## Kya karta hai
 Customer ke WhatsApp message ka AI-powered jawab — usi language me (Arabic/English auto).

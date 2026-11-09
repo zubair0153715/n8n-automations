@@ -1,6 +1,6 @@
 # 3. Abandoned Cart Recovery (AR+EN)
 
-**File:** `abandoned-cart-recovery.json` · **Status in n8n:** imported, inactive
+**File:** `abandoned-cart-recovery.json` · **Nodes:** 9 · **Status in n8n:** imported, inactive
 
 ## Kya karta hai
 Adhoori chodi hui cart wale customer ko wapas lata hai.

@@ -1,6 +1,6 @@
 # 5. Review Booster (AR+EN)
 
-**File:** `review-booster.json` · **Status in n8n:** imported, inactive
+**File:** `review-booster.json` · **Nodes:** 9 · **Status in n8n:** imported, inactive
 
 ## Kya karta hai
 Khush customer se Google review, naraaz se private feedback — automatically.

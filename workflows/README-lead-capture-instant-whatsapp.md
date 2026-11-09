@@ -1,6 +1,6 @@
 # 4. FB Lead Ads → Instant WhatsApp (AR+EN)
 
-**File:** `lead-capture-instant-whatsapp.json` · **Status in n8n:** imported, inactive
+**File:** `lead-capture-instant-whatsapp.json` · **Nodes:** 7 · **Status in n8n:** imported, inactive
 
 ## Kya karta hai
 Facebook Lead Ad bhartay hi foran WhatsApp pe rabta — lead thanda hone se pehle.
