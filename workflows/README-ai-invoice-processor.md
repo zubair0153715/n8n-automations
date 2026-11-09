@@ -13,7 +13,7 @@
 - Google Sheets (OAuth) — Record Invoice node; sheet ID placeholder.
 - Slack incoming webhook — Notify/Alert/Error nodes mein `YOUR_SLACK_WEBHOOK_URL` placeholder.
 
-**Test (bina n8n ke):** `tests/test_invoice_validation.py` — sample invoice + expected extraction pe wohi validation logic chalata hai jo Validate Totals node mein hai (totals recompute + duplicate check). `python3 tests/test_invoice_validation.py` → sab PASS hona chahiye. Sample files: `sample-invoice.json`, `expected-extraction.json`.
+**Test (bina n8n ke):** `tests/test_invoice_validation.py` — sample invoice + expected extraction pe wohi validation logic chalata hai jo Validate Totals node mein hai (totals recompute + duplicate check). `python3 tests/test_invoice_validation.py` → sab PASS hona chahiye (14/14). Sample files: `sample-invoice.json`, `expected-extraction.json`. **Live demo:** `node tests/demo_paddle_invoice.mjs` — workflow ka asal Validate Totals node code ek real Paddle invoice (136531-10002, $53.35) pe chalata hai: sahi invoice → Record+Notify, tampered total/line-item → Quarantine+Alert, duplicate invoice_number → update, dobara payment nahi.
 
 **Client pe deploy:** JSON import → Gemini key, sheet, Slack webhook lagao → webhook URL ko invoice source (email parser / scanner app) se connect karo → Active. Pehli run manual "Execute Workflow" se sample invoice pe test karo.
 
